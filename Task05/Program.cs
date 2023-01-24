@@ -6,10 +6,10 @@
 
 Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num > 0)
+if (num % 2 == 1)
 {
     int count = -num;
-    while (count <= num)
+    while (count >= num)
     {
         Console.Write(count + " ");
         count++;
